@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>web</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+<style>
+  .hero-image-wrapper{
+    width:100%;
+    position: relative;
+  }
+  .hero-image{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .discount{
+    position: absolute;
+    top:30px;
+    bottom: 30px;
+    border-radius: 50%;
+    background-color: #BBFBFF;
+    width:90px;
+    height:90px;
+    text-align: center;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+  }
+  @media(max-width:576px){
+    .discount{
+       top:15px;
+       bottom: 15px;
+       width:50px;
+       height: 50px;
+    }
+    .text{
+      margin:2px;
+      height:30px;
+    }
+  }
+  .navbar{
+    display: flex;
+    justify-content: center;
+  }
+  .btm{
+    border-radius: 5px;
+  }
+</style>
+</head>
+
+<body>
+ <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #e3f2fd;" data-bs-theme="light">
+    <div class="container-fluid d-flex justify-content-between px-4">
+      <a class="navbar-brand" href="#"><img src="./tsunami.svg" alt="Logo">Travel</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="package.html">Package</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <a href="contact.html" class="btn btn-primary">Sign Up</a> 
+      </div>
+    </div>
+  </nav>
+  
+  <div class="hero-image-wrapper" >
+       <img src="./mal.png" class="img-fluid hero-image" alt="Maldives" width="1500">
+       <DIV class="discount"><H4 class="text">SALE<br>50%</H4></DIV>
+  </div>
+  
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"> <div class="col-md-4 d-flex align-items-center"> <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap"> <svg class="bi" width="30" height="24" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg> </a> <span class="mb-3 mb-md-0 text-body-secondary">© 2025 Company, Inc</span> </div> <ul class="nav col-md-4 justify-content-end list-unstyled d-flex"> <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Instagram"><svg class="bi" width="24" height="24" aria-hidden="true"><use xlink:href="#instagram"></use></svg></a></li> <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Facebook"><svg class="bi" width="24" height="24"><use xlink:href="#facebook">
+  </use></svg></a></li> </ul> </footer>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+
+</html>
+       
+      
